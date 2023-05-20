@@ -74,11 +74,11 @@ This project implements an anomaly detection algorithm using multivariate probab
 
 ### What was my motivation?
 
-Our motivation behind this project was to develop an effective anomaly detection algorithm using multivariate probability distributions. We aimed to explore how such a technique could be utilized to identify outliers in datasets and provide valuable insights for various applications.
+My motivation behind this project was to develop an effective anomaly detection algorithm using multivariate probability distributions. I aimed to explore how such a technique could be utilized to identify outliers in datasets and provide valuable insights for various applications.
 
 ### Why did I build this project?
 
-We built this project to address the need for robust anomaly detection methods that can handle multivariate data. Anomalies or outliers often represent significant deviations from normal behavior and can be indicators of potential issues or interesting patterns in a dataset. By developing this project, we aimed to provide a reliable tool for detecting anomalies and supporting decision-making processes in various domains.
+I built this project to address the need for robust anomaly detection methods that can handle multivariate data. Anomalies or outliers often represent significant deviations from normal behavior and can be indicators of potential issues or interesting patterns in a dataset. By developing this project, I aimed to provide a reliable tool for detecting anomalies and supporting decision-making processes in various domains.
 
 ### What problem does it solve?
 
@@ -86,7 +86,7 @@ This project solves the problem of identifying anomalies or outliers in multivar
 
 ### What did I learn?
 
-Through the development of this project, we gained a deeper understanding of multivariate probability distributions and their application in anomaly detection. We learned how to compute the mean and covariance matrix of multivariate data, calculate multivariate probability densities, evaluate performance using ROC curves, and determine optimal thresholds for anomaly detection. Additionally, we enhanced our skills in data visualization and interpretation of confusion matrices. This project provided practical insights into implementing an anomaly detection algorithm and reinforced our knowledge of probability theory and statistical analysis.
+Through the development of this project, I gained a deeper understanding of multivariate probability distributions and their application in anomaly detection. I learned how to compute the mean and covariance matrix of multivariate data, calculate multivariate probability densities, evaluate performance using ROC curves, and determine optimal thresholds for anomaly detection. Additionally, I enhanced our skills in data visualization and interpretation of confusion matrices. This project provided practical insights into implementing an anomaly detection algorithm and reinforced our knowledge of probability theory and statistical analysis.
 
 
 ## Prerequisites
