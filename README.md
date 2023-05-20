@@ -64,7 +64,7 @@ This code is released under the MIT License. Feel free to use, modify, and distr
 
 The code is developed as part of an anomaly detection project and utilizes various MATLAB functions and libraries. It is provided as a reference implementation and can be further customized or extended based on specific requirements.
 
-# additional
+# Additional
 
 # Multivariate probability model to the high dimensional dataset
 
