@@ -63,3 +63,68 @@ This code is released under the MIT License. Feel free to use, modify, and distr
 ## Acknowledgements
 
 The code is developed as part of an anomaly detection project and utilizes various MATLAB functions and libraries. It is provided as a reference implementation and can be further customized or extended based on specific requirements.
+
+# additional
+
+# Multivariate probability model to the high dimensional dataset
+
+
+This project implements an anomaly detection algorithm using multivariate probability distributions in MATLAB. The algorithm fits a multivariate normal distribution to the input dataset and uses it to quantify the likelihood of each data point. By setting an appropriate threshold, anomalies can be identified based on their low probability values.
+
+
+### What was my motivation?
+
+Our motivation behind this project was to develop an effective anomaly detection algorithm using multivariate probability distributions. We aimed to explore how such a technique could be utilized to identify outliers in datasets and provide valuable insights for various applications.
+
+### Why did I build this project?
+
+We built this project to address the need for robust anomaly detection methods that can handle multivariate data. Anomalies or outliers often represent significant deviations from normal behavior and can be indicators of potential issues or interesting patterns in a dataset. By developing this project, we aimed to provide a reliable tool for detecting anomalies and supporting decision-making processes in various domains.
+
+### What problem does it solve?
+
+This project solves the problem of identifying anomalies or outliers in multivariate datasets. By fitting a multivariate normal distribution to the data and setting an appropriate threshold, the algorithm is able to classify data points as normal or anomalous based on their probability values. This approach can be applied to various domains such as fraud detection, network intrusion detection, quality control, and outlier analysis in financial or healthcare datasets.
+
+### What did I learn?
+
+Through the development of this project, we gained a deeper understanding of multivariate probability distributions and their application in anomaly detection. We learned how to compute the mean and covariance matrix of multivariate data, calculate multivariate probability densities, evaluate performance using ROC curves, and determine optimal thresholds for anomaly detection. Additionally, we enhanced our skills in data visualization and interpretation of confusion matrices. This project provided practical insights into implementing an anomaly detection algorithm and reinforced our knowledge of probability theory and statistical analysis.
+
+
+## Prerequisites
+
+MATLAB (R2018a or later)
+
+## Installation
+
+To use this code, make sure you have MATLAB installed on your system. Simply clone this repository or download the code files to your local machine.
+
+
+## Workflow
+
+The dataset is loaded from data2.mat, which contains the input features (Xval) and corresponding labels (yval).
+The mean (mu) and covariance matrix (sigma2) of the input features are computed using the mean() and cov() functions, respectively.
+The multivariate probability densities of the input data points are calculated using the mvnpdf() function with the mean and covariance matrix.
+The Receiver Operating Characteristic (ROC) curve is generated using the perfcurve() function, which plots the true positive rate against the false positive rate for different threshold values.
+The optimal threshold (Topt) is determined based on the maximum value of the Youden's J statistic, obtained from the ROC curve.
+The confusion matrix is computed using the confusionmat() function, which compares the predicted outliers (based on the threshold) with the true labels.
+The ROC curve and the optimal threshold point are plotted using the plot() function.
+The number of outliers predicted by the model is calculated by evaluating the multivariate probability densities of the entire dataset (X) and counting the number of points below the threshold (Topt).
+
+## Results
+
+The optimal threshold (Topt) is printed to the console, indicating the value that maximizes the performance of the model.
+The confusion matrix is displayed, showing the number of true positives, true negatives, false positives, and false negatives.
+The ROC curve is plotted, visualizing the trade-off between the true positive rate and the false positive rate.
+The number of outliers predicted by the model is printed to the console.
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Acknowledgements
+
+The code is developed as part of an anomaly detection project and utilizes various MATLAB functions and libraries. It is provided as a reference implementation and can be further customized or extended based on specific requirements.
+
